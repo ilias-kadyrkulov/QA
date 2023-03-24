@@ -1,4 +1,4 @@
-class EditPage {
+class ViewAndEditPage {
     get user () { return $('tbody tr.crm-navigator-table__row:nth-child(1)')}
     get userSurname () { return $('#mat-input-1')}
     get userFirstname () { return $('#mat-input-2')}
@@ -26,4 +26,4 @@ class EditPage {
     }
 }
 
-module.exports = new EditPage();
+module.exports = new ViewAndEditPage();

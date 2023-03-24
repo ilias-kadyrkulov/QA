@@ -5,13 +5,14 @@ class LoginPage {
 
     async open(){
         await browser.url('http://167.114.201.175:5000/login'); 
-        await browser.pause(5000);
+        await browser.pause(3000);
     }
 
     async doLogin(username, password){
         await this.usernameField.setValue(username);
         await this.passwordField.setValue(password);
         await this.loginButton.click();
+        await browser.pause(3000);
     }
 }
 

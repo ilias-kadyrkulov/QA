@@ -1,7 +1,7 @@
 exports.config = {
     runner: 'local',
     specs: [
-        './test/specs/viewandedit.spec.js'
+        './test/specs/coupons.spec.js'
     ],
     exclude: [
         './test/specs/example.e2e.js'
